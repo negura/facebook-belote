@@ -2,6 +2,9 @@
   "name": "facebook-belote",
   "version": "0.0.1",
   "description": "facebook belote application",
+  "scripts": {
+	  "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.13.3"
   }
