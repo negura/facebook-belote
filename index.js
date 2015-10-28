@@ -5,6 +5,6 @@ app.get('/',function(req,res){
 	res.sendFile(__dirname + '/html/index.html');
 });
 
-http.listen(5000,function(){
+http.listen(process.env.PORT || 5000,function(){
 	console.log('Listening on *:5000');
 });
