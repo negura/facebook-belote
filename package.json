@@ -1,0 +1,8 @@
+{
+  "name": "facebook-belote",
+  "version": "0.0.1",
+  "description": "facebook belote application",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
